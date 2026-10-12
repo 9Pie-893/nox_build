@@ -1,39 +1,26 @@
-<!--
-Thanks for your contribution! If you're submitting a tutorial, please ensure it includes a guided path for learners, either through a step-by-step article or by breaking down code into digestible parts that are easy to follow. Please submit only programming tutorials that build something interesting from scratch; no frameworks, libraries, guides for frameworks/libraries or tutorials that glue just other libraries together. 
--->
+# NOX stack change or lab
 
-### Main programming language
-<!-- max. 1 -->
+Use this template for stack ADRs, lab work, or contradictions with production repos.
 
-### Tutorial title
-<!-- the original title from the article, repository, ... -->
+## Type
 
-### Tutorial URL
+- [ ] Stack change (requires ADR)
+- [ ] Lab implementation
+- [ ] Repo-map correction
+- [ ] Contradiction with `Lone-wolf-Ltd/nox-platform` or `pyaiphyopie/NOX`
 
-### Category
-* [ ] 3D Renderer
-* [ ] Augmented Reality
-* [ ] BitTorrent Client
-* [ ] Blockchain / Cryptocurrency
-* [ ] Bot
-* [ ] Command-Line Tool
-* [ ] Database
-* [ ] Docker
-* [ ] Emulator / Virtual Machine
-* [ ] Front-end Framework / Library
-* [ ] Game
-* [ ] Git
-* [ ] Network Stack
-* [ ] Neural Network
-* [ ] Operating System
-* [ ] Physics Engine
-* [ ] Programming Language
-* [ ] Regex Engine
-* [ ] Search Engine
-* [ ] Shell
-* [ ] Template Engine
-* [ ] Visual Recognition System
-* [ ] Voxel Engine
-* [ ] Web Search Engine
-* [ ] Web Server
-* [ ] Uncategorized
+## Journey step
+
+DISCOVER / DECIDE / BOOK / ENTER / EXPERIENCE / platform
+
+## Proposal
+
+What should change, and why the current contract is wrong.
+
+## Security / money impact
+
+Does this touch auth, tickets, payments, or check-in? If yes, list failure modes.
+
+## Out of scope
+
+What this issue will not do (no second monorepo, no invented payment APIs).
