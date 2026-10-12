@@ -12,4 +12,4 @@ Labs exist to expose failure modes. They are not production services.
 | [06-dashboards](06-dashboards/) | RBAC loaders | Next.js dashboards |
 | [07-observability](07-observability/) | Trace + product events | Sentry / OTel / PostHog |
 
-Each module folder starts with a contract README. Implementation comes after the contract is used in anger.
+01-auth and 02-events-discovery have verified labs. Later modules stay contracts until implemented.
